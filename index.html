@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+<h1 class="title">      Calculadora em JavaScript
+</h1>    
+</header>
+  <section class="conteudo">
+    <input type="text" name="input" id="input" size=""/> <input type="button" value="&#9003;
+    "
+    onclick="apagar()" class="btn-apagar">
+  <section class="line1">
+    <input type="button" value="7" onclick="inserir(7)"  class="btn"/>
+    <input type="button" value="8" onclick="inserir(8)" class="btn"/>
+    <input type="button" value="9" onclick="inserir(9)" class="btn"/>
+    <input type="button" value="/" onclick="inserir('/')" class="btn"/>
+  </section>
+  <section class="line2">
+    <input type="button" value="4" onclick="inserir(4)" class="btn"/>
+    <input type="button" value="5" onclick="inserir(5)" class="btn"/>
+    <input type="button" value="6" onclick="inserir(6)" class="btn"/>
+    <input type="button" value="*" onclick="inserir('*')" class="btn"/>
+  </section>
+  <section class="line3">
+    <input type="button" value="1" onclick="inserir(1)" class="btn"/>
+    <input type="button" value="2" onclick="inserir(2)" class="btn"/>
+    <input type="button" value="3" onclick="inserir(3)" class="btn"/>
+    <input type="button" value="-" onclick="inserir('-')" class="btn"/>
+  </section>
+  <section class="line4">
+    <input type="button" value="0" onclick="inserir(0)" class="btn"/>
+    <input type="button" value="." onclick="inserir('.')" class="btn"/>
+    <input type="button" value="^" onclick="inserir('**')" class="btn"/>
+    <input type="button" value="+" onclick="inserir('+')" class="btn"/>
+  </section>
+    <input type="button" value="=" onclick="calcular()" class="btn-igual"/>
+  </section>
+    <script src="app.js"></script>
+  </body>
+</html>
